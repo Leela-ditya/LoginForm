@@ -1,0 +1,93 @@
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://images.unsplash.com/photo-1691059283474-74660edb314c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80");
+}
+.main h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
+.main{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    padding: 10px 20px;
+    backdrop-filter: blur(8px);
+}
+.input-container{
+    margin-bottom: 20px;
+}
+.input-container span{
+    position: relative;
+    float: right;
+    right: 30px;
+    bottom: 0;
+}
+i{
+    color: #fff;
+}
+.input-container input{
+    font-size: 16px;
+    background: transparent;
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    padding: 10px 2px;
+    width: 90%;
+    color: #fff;
+}
+
+.remember{
+    margin-bottom: 10px;
+    color: #fff;
+}
+.remember a{
+    position: relative;
+    left: 25%;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.remember a:hover{
+    text-decoration: underline;
+}
+.remember input{
+    margin-right: 5px;
+}
+.btn{
+    margin-top: 30px;
+}
+.btn button{
+    width: 90%;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    color: #000;
+    padding: 8px;
+    cursor: pointer;
+}
+.btn button:hover{
+    filter: brightness(.8);
+}
+
+.account{
+    color: #fff;
+    font-size: 20px;
+}
+.account a{
+    margin-left: 12px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px 3px #fff; 
+}
+.account a:hover{
+    text-decoration: underline;
+}
+
